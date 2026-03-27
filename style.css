@@ -451,7 +451,7 @@ textarea {
 }
 
 /* Bordas coloridas por prioridade */
-/* .card-tarefa.prioridade-alta  { border-left-color: var(--cor-alta); } */
+.card-tarefa.prioridade-alta  { border-left-color: var(--cor-alta); }
 .card-tarefa.prioridade-media { border-left-color: var(--cor-media); }
 .card-tarefa.prioridade-baixa { border-left-color: var(--cor-baixa); }
 
