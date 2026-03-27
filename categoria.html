@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Radar Fashion - Cadastro de nova tarefa">
+    <title>Radar Fashion - Categoria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Radar Fashion</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Login</a></li>
+                    <li><a href="categorias.html">Categorias</a></li>
+                    <li><a href="ofertas.html">Ofertas</a></li>
+                    <li><a href="cards.html">Cards</a></li>
+                    <li><a href="estatisticas.html">Estatísticas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="nova-tarefa" class="secao-form">
+                <h2>Selecionar Categoria</h2>
+
+                <form id="tarefa-form" action="#" method="post">
+                    <div class="form-grupo">
+                        <label for="categoria">Categoria*</label>
+                        <select id="categoria" name="categoria" required>
+                            <option value="">Selecione a categoria</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="infantil">Infantil</option>
+                            <option value="calçado">Calçado</option>
+                            <option value="beleza">Beleza</option>
+                            <option value="acessórios">Acessórios</option>
+                        </select>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="Tamanho">Tamanho *</label>
+                        <select id="tamanho" name="tamanho" required>
+                            <option value="">Selecione o tamanho</option>
+                            <option value="pp">PP</option>
+                            <option value="p">P</option>
+                            <option value="m">M</option>
+                            <option value="g">G</option>
+                            <option value="gg">GG</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="42">42</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>              
+                        </select>
+                    </div>
+
+                    </div>
+
+                    <div class="form-acoes">
+                        <button type="submit" class="btn btn-primario">BUSCAR</button>
+                        <button type="reset" class="btn btn-secundario">LIMPAR</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <img src="img/slogan-removebg-preview.png" alt="Slogan" style="margin: 0 auto;" width="200px">
+        <br>
+            <p>&copy; 2026 Taskschool &mdash; Projeto Educacional SENAC</p>
+            <p>Desenvolvido na disciplina de Desenvolvimento Frontend (UC2)</p>
+        </div>
+    </footer>
+</body>
+</html>
